@@ -1,4 +1,4 @@
-var edad = 27
+var edad = 22
 
 // edad = edad + 1
 edad += 1
