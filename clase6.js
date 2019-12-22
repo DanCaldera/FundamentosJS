@@ -1,4 +1,4 @@
-var sacha = {
+var daniel = {
   nombre: 'Daniel',
   apellido: 'Caldera',
   edad: 22

@@ -1,13 +1,13 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22
 }
 
-var dario = {
-  nombre: 'Darío',
-  apellido: 'Susnisky',
-  edad: 27
+var valeria = {
+  nombre: 'Valeria',
+  apellido: 'Oceguera',
+  edad: 20
 }
 
 function imprimirNombreEnMayusculas(persona) {
@@ -16,12 +16,14 @@ function imprimirNombreEnMayusculas(persona) {
   console.log(nombre.toUpperCase())
 }
 
-imprimirNombreEnMayusculas(sacha)
-imprimirNombreEnMayusculas(dario)
+imprimirNombreEnMayusculas(daniel)
+imprimirNombreEnMayusculas(valeria)
 // imprimirNombreEnMayusculas({ nombre: 'Pepito' })
 // imprimirNombreEnMayusculas({ apellido: 'Gomez' })
 
-function imprimirNombreYEdad() {
-  // Hola, me llamo Sacha y tengo 28 años
-  // Hola, me llamo Darío y tengo 27 años
+function imprimirNombreYEdad({ nombre, edad }) {
+  console.log('Hola, me llamo ' + nombre +  ' y tengo ' + edad +  ' años')
 }
+
+imprimirNombreYEdad(daniel)
+imprimirNombreYEdad(valeria)
