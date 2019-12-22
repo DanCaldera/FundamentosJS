@@ -7,3 +7,5 @@ var daniel = {
 var otraPersona = {
   nombre: 'Daniel'
 }
+
+// var otraPersona = daniel
