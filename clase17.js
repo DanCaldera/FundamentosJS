@@ -1,7 +1,7 @@
 var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  altura: 1.72
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  altura: 1.80
 }
 
 var alan = {
