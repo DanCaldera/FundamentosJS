@@ -1,7 +1,7 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  altura: 1.72
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  altura: 1.8
 }
 
 var alan = {
@@ -36,7 +36,7 @@ var paula = {
 
 const esAlta = ({ altura }) => altura > 1.8
 
-var personas = [sacha, alan, martin, dario, vicky, paula]
+var personas = [daniel, alan, martin, dario, vicky, paula]
 
 var personasAltas = personas.filter(esAlta)
 // var personasAltas = personas.filter(function (persona) {
