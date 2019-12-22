@@ -1,7 +1,7 @@
 var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22
 }
 
 var dario = {
@@ -17,4 +17,4 @@ function imprimirNombreEnMayusculas({ nombre }) {
 imprimirNombreEnMayusculas(sacha)
 imprimirNombreEnMayusculas(dario)
 // imprimirNombreEnMayusculas({ nombre: 'Pepito' })
-imprimirNombreEnMayusculas({ apellido: 'Gomez' })
+// imprimirNombreEnMayusculas({ apellido: 'Gomez' })
