@@ -1,11 +1,11 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28,
-  peso: 75
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22,
+  peso: 70
 }
 
-console.log(`Al inicio del año ${sacha.nombre} pesa ${sacha.peso}kg`)
+console.log(`Al inicio del año ${daniel.nombre} pesa ${daniel.peso}kg`)
 
 // function aumentarDePeso (persona) {
 //   return persona.peso += 200
@@ -18,17 +18,18 @@ const adelgazar = persona => persona.peso -= INCREMENTO_PESO
 const comeMucho = () => Math.random() < 0.3
 const realizaDeporte = () => Math.random() < 0.4
 
-const META = sacha.peso - 3
+const META = daniel.peso - 3
 var dias = 0
 
-while (sacha.peso > META) {
+while (daniel.peso > META) {
+  debugger
   if (comeMucho()) {
-    aumentarDePeso(sacha)
+    aumentarDePeso(daniel)
   }
   if (realizaDeporte()) {
-    adelgazar(sacha)
+    adelgazar(daniel)
   }
   dias += 1
 }
 
-console.log(`Pasaron ${dias} días hasta que ${sacha.nombre} adelgazó 3kg`)
+console.log(`Pasaron ${dias} días hasta que ${daniel.nombre} adelgazó 3kg`)
