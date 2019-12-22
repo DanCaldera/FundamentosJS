@@ -1,4 +1,4 @@
-var sacha = {
+var daniel = {
   nombre: 'Daniel',
   apellido: 'Caldera',
   altura: 1.80
@@ -34,7 +34,7 @@ var paula = {
   altura: 1.76
 }
 
-var personas = [sacha, alan, martin, dario, vicky, paula]
+var personas = [daniel, alan, martin, dario, vicky, paula]
 
 for (var i = 0; i < personas.length; i++) {
   var persona = personas[i]
