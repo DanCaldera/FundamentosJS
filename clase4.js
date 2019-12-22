@@ -1,4 +1,4 @@
-var nombre = 'Sacha', edad = 28
+var nombre = 'Daniel', edad = 22
 
 function imprimirEdad(n, e) {
   console.log(`${n} tiene ${e} años`)
