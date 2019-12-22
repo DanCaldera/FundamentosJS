@@ -8,4 +8,8 @@ var otraPersona = {
   nombre: 'Daniel'
 }
 
+// var otraPersona = {
+//   ...daniel
+// }
+
 // var otraPersona = daniel
