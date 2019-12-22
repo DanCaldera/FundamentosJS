@@ -1,7 +1,7 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28,
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22,
   ingeniero: false,
   cocinero: false,
   cantante: true,
@@ -61,7 +61,7 @@ function imprimirSiEsMayorDeEdad(persona) {
   }
 }
 
-function permitirAcceso(persona) {
+const permitirAcceso = (persona) => {
   if (!esMayorDeEdad(persona)) {
     console.log('ACCESO DENEGADO')
   }
