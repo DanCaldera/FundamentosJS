@@ -1,11 +1,11 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28,
-  peso: 75
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22,
+  peso: 70
 }
 
-console.log(`Al inicio del año ${sacha.nombre} pesa ${sacha.peso}kg`)
+console.log(`Al inicio del año ${daniel.nombre} pesa ${daniel.peso}kg`)
 
 // function aumentarDePeso (persona) {
 //   return persona.peso += 200
@@ -20,10 +20,10 @@ for (var i = 1; i <= DIAS_DEL_ANO; i++) {
   var random = Math.random()
 
   if (random < 0.25) {
-    aumentarDePeso(sacha)
+    aumentarDePeso(daniel)
   } else if (random < 0.5) {
-    adelgazar(sacha)
+    adelgazar(daniel)
   }
 }
 
-console.log(`Al final del año ${sacha.nombre} pesa ${sacha.peso.toFixed(1)}kg`)
+console.log(`Al final del año ${daniel.nombre} pesa ${daniel.peso.toFixed(1)}kg`)
