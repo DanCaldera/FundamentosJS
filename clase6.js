@@ -16,5 +16,5 @@ function imprimirNombreEnMayusculas({ nombre }) {
 
 imprimirNombreEnMayusculas(sacha)
 imprimirNombreEnMayusculas(dario)
-// imprimirNombreEnMayusculas({ nombre: 'Pepito' })
-// imprimirNombreEnMayusculas({ apellido: 'Gomez' })
+imprimirNombreEnMayusculas({ nombre: 'Pepito' })
+imprimirNombreEnMayusculas({ apellido: 'Gomez' })
