@@ -1,10 +1,10 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  edad: 28,
-  ingeniero: false,
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  edad: 22,
+  ingeniero: true,
   cocinero: false,
-  cantante: true,
+  cantante: false,
   dj: false,
   guitarrista: false,
   drone: false
