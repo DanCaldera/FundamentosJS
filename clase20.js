@@ -1,8 +1,8 @@
-var sacha = {
-  nombre: 'Sacha',
-  apellido: 'Lifszyc',
-  altura: 1.72,
-  cantidadDeLibros: 111
+var daniel = {
+  nombre: 'Daniel',
+  apellido: 'Caldera',
+  altura: 1.8,
+  cantidadDeLibros: 110
 }
 
 var alan = {
@@ -42,7 +42,7 @@ var paula = {
 
 const esAlta = ({ altura }) => altura > 1.8
 
-var personas = [sacha, alan, martin, dario, vicky, paula]
+var personas = [daniel, alan, martin, dario, vicky, paula]
 
 var personasAltas = personas.filter(esAlta)
 // var personasAltas = personas.filter(function (persona) {
@@ -66,5 +66,7 @@ var personasCms = personas.map(pasarAlturaACms)
 const reducer = (acum, { cantidadDeLibros }) => acum + cantidadDeLibros
 
 var totalDeLibros = personas.reduce(reducer, 0)
+//                                      ^    ^_- Valor Inicial del acumulador
+//                                      |_- Función que acumuló la cantidad de libros
 
 console.log(`En total todos tienen ${totalDeLibros} libros`)
