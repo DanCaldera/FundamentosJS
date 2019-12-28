@@ -43,10 +43,10 @@ function responderSaludo(nombre, apellido, esDev) {
   }
 }
 
-var sacha = new Persona('Sacha', 'Lifszyc', 1.72)
+var daniel = new Persona('Daniel', 'Caldera', 1.81)
 var erika = new Persona('Erika', 'Luna', 1.65)
 var arturo = new Desarrollador('Arturo', 'Martinez', 1.89)
 
-sacha.saludar()
+daniel.saludar()
 erika.saludar(responderSaludo)
 arturo.saludar(responderSaludo)
