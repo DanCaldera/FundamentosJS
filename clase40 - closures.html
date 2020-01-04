@@ -7,9 +7,7 @@
   <body>
     <script>
       function crearSaludo(finalDeFrase) {
-        return function (nombre) {
-          console.log(`Hola ${nombre} ${finalDeFrase}`)
-        }
+        return nombre => console.log(`Hola ${nombre} ${finalDeFrase}`)
       }
 
       const saludoArgentino = crearSaludo('che')
