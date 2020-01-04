@@ -22,3 +22,8 @@ obtenerPersonaje(1)
     console.log(`El personaje 1 es ${personaje.name}`)
   })
   .catch(onError)
+obtenerPersonaje(2)
+  .then(function (personaje) {
+    console.log(`El personaje 2 es ${personaje.name}`)
+  })
+  .catch(onError)
