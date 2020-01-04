@@ -7,6 +7,7 @@ const opts = { crossDomain: true }
 
 const onPeopleResponse = function (persona) {
   console.log(`Hola yo soy, ${persona.name}`)
+  console.log(arguments)
 }
 
 $.get(lukeUrl, opts, onPeopleResponse)
