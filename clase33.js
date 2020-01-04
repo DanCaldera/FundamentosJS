@@ -12,7 +12,7 @@ function obtenerPersonaje(id) {
       .fail(() => reject(id))
   })
 }
-
+// Probando
 function onError(id) {
   console.log(`Sucedió un error al obtener el personaje ${id}`)
 }
